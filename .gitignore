@@ -1,0 +1,20 @@
+# Generated data and inference results
+*.mat
+data/
+results/
+
+# Generated figures
+figures/
+*.fig
+*.pdf
+*.png
+*.jpg
+*.jpeg
+*.eps
+*.svg
+*.tif
+*.tiff
+
+# MATLAB autosave files
+*.asv
+*.m~
