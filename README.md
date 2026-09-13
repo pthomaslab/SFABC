@@ -1,4 +1,4 @@
-This repository contains example MATLAB code for the paper **Simulation-free approximate Bayesian Computation**.
+This repository contains example MATLAB code for the paper **Simulation-free approximate Bayesian computation for stochastic reaction networks**.
 
 The example performs parameter inference for the **steady-state telegraph model** using approximate Bayesian computation (ABC) and simulation-free approximate Bayesian computation (SFABC), both implemented with sequential Monte Carlo (SMC). The prior, perturbation kernel, tolerance schedule, and related inference settings are the same as those used in **Fig. 2 E-F and Supplementary Fig. S2** of the paper.
 
