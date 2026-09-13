@@ -27,7 +27,7 @@ The plot shows both marginal posteriors on the diagonal, ABC joint posteriors be
 
 ## Model and inference settings
 
-The inferred parameters are ordered as `[k_off, k_on, k_syn]`: gene inactivation, gene activation, and transcription rates. The degradation rate is fixed at 1. `k_tx` in `ABC_SMC.m` denotes the same transcription rate as `k_syn`.
+The inferred parameters are ordered as `[k_off, k_on, k_syn]`: gene inactivation, gene activation, and transcription rates. The degradation rate is fixed at 1. `k_tx` in `ABC_SMC_tele_steady.m` denotes the same transcription rate as `k_syn`.
 
 | Setting | Value |
 | --- | --- |
@@ -49,7 +49,7 @@ By default, ABC uses Gillespie SSA (`gillespie = true`), with a simulation end t
 
 | File | Purpose |
 | --- | --- |
-| `ABC_SMC.m` | ABC-SMC sampling and its local simulation and distance functions |
+| `ABC_SMC_tele_steady.m` | ABC-SMC sampling and its local simulation and distance functions |
 | `SFABC_SMC_tele_steady.m` | SFABC-SMC sampling |
 | `feas_test_tele_steady.m` | Steady-state CME feasibility test |
 | `get_matrices.m` | Telegraph-model CME coefficient matrices |
@@ -58,4 +58,4 @@ By default, ABC uses Gillespie SSA (`gillespie = true`), with a simulation end t
 | `V_estimation.m` | Relative acceptance-region volume estimation |
 | `plot_gene_posteriors.m` | Posterior comparison plots |
 
-The local Gillespie `directMethod` implementation in `ABC_SMC.m` retains its original attribution to Nezar Abdennur (2012).
+The local Gillespie `directMethod` implementation in `ABC_SMC_tele_steady.m` retains its original attribution to Nezar Abdennur (2012).

@@ -1,8 +1,8 @@
-function [n_sim,ks_t,ws_t] = ABC_SMC(data, d, tols, n_samples, rs, wait_bar, gillespie)
+function [n_sim,ks_t,ws_t] = ABC_SMC_tele_steady(data, d, tols, n_samples, rs, wait_bar, gillespie)
 
-%ABC_SMC Run ABC-SMC inference for the telegraph model.
+%ABC_SMC_TELE_STEADY Run ABC-SMC inference for the telegraph model.
 %
-%   [n_sim,ks_t,ws_t] = ABC_SMC(data, d, tols, n_samples, rs, wait_bar, gillespie)
+%   [n_sim,ks_t,ws_t] = ABC_SMC_tele_steady(data, d, tols, n_samples, rs, wait_bar, gillespie)
 %
 %   Inputs:
 %     data      - Vector of observed mRNA counts for one gene.

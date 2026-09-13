@@ -35,7 +35,7 @@ for g = 1:n_gene
 
     % Run ABC-SMC using the selected simulation method.
     tic
-    [n_sim_g,ks_t_g,ws_t_g] = ABC_SMC(data_g, d, tols, n_samples, rs, wait_bar, gillespie);
+    [n_sim_g,ks_t_g,ws_t_g] = ABC_SMC_tele_steady(data_g, d, tols, n_samples, rs, wait_bar, gillespie);
     run_time(g) = toc;
 
     % Store all SMC populations for this gene.
