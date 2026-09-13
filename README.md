@@ -2,8 +2,6 @@ This repository contains example MATLAB code for the paper **Simulation-free app
 
 The example performs parameter inference for the **steady-state telegraph model** using approximate Bayesian computation (ABC) and simulation-free approximate Bayesian computation (SFABC), both implemented with sequential Monte Carlo (SMC). The prior, perturbation kernel, tolerance schedule, and related inference settings are the same as those used in **Fig. 2 E-F and Supplementary Fig. S2** of the paper.
 
-Only source code and documentation are included in the repository. Data, inference results, and figures are generated locally and are excluded from upload by `.gitignore`.
-
 ## Requirements
 
 - MATLAB with the Statistics and Machine Learning Toolbox.
